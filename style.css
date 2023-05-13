@@ -7,7 +7,7 @@ body{
 }
 
 .entirePage{
-    height: 97vh;
+    height: 98vh;
 }
 
 .box{
@@ -104,18 +104,25 @@ body{
 @media only screen and (max-width: 375px) {
     .entirePage{
         height: auto;
+        margin-bottom: 50px;
     }
     .box{
         width: auto;
         height: auto;
-
+    }
+    .Graphic1{
+        width: 200px;
     }
     .Graphic23{
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
     .Graphics{
         display: flex;
         flex-direction: column;
+        height: auto;
+        gap: 50px;
     }
+
 }
