@@ -100,7 +100,7 @@ body{
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .body{
         width: auto;
     }
