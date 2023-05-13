@@ -100,7 +100,7 @@ body{
     justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .body{
         width: auto;
     }
@@ -111,9 +111,10 @@ body{
     .box{
         width: auto;
         height: auto;
+        padding: 10px;
     }
     .Graphic1{
-        width: 200px;
+        width: 170px;
     }
     .Graphic23{
         display: flex;
