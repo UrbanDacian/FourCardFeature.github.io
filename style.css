@@ -102,6 +102,9 @@ body{
 }
 
 @media only screen and (max-width: 375px) {
+    .body{
+        width: auto;
+    }
     .entirePage{
         height: auto;
         margin-bottom: 50px;
